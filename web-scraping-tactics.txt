@@ -1,0 +1,17 @@
+
+
+1. Set an up-to-date User Agent
+2. User Agent rotation
+3. Request header rotation
+4. Set a referrer
+5. Add a random time component to requests
+6. Look for entries into the page's APIs
+7. IP rotation
+- should be a first consideartion. Scraper APIs, proxy services, etc.
+8. Use a different scraping/navigation approach if navigating through pages to mimic randomized behavior
+9. Avoid honeypot traps. Not very relevant for scraping since we aren't really 'crawling'
+
+
+
+For time insensitive information
+1. Scrape out of the Google Cache
